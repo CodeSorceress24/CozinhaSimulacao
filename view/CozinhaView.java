@@ -9,9 +9,9 @@ public class CozinhaView {
         System.out.println("=================================");
         System.out.println("Pratos a preparar: " + totalPratos);
         System.out.println("Regras:");
-        System.out.println("• Pratos ÍMPARES: Sopa de Cebola (0.5s - 0.8s)");
-        System.out.println("• Pratos PARES: Lasanha a Bolonhesa (0.6s - 1.2s)");
-        System.out.println("• Entrega: Apenas 1 prato por vez (0.5s)");
+        System.out.println("Pratos ÍMPARES: Sopa de Cebola (0.5s - 0.8s)");
+        System.out.println("Pratos PARES: Lasanha a Bolonhesa (0.6s - 1.2s)");
+        System.out.println("Entrega: Apenas 1 prato por vez (0.5s)");
         System.out.println("=================================\n");
     }
     
@@ -54,9 +54,9 @@ public class CozinhaView {
     
     public void mostrarEstatisticas() {
         System.out.println("\nESTATÍSTICAS DA COZINHA");
-        System.out.println("• Pratos preparados: 5");
-        System.out.println("• Sopas de Cebola: 3 (ímpares)");
-        System.out.println("• Lasanhas: 2 (pares)");
-        System.out.println("• Entregas: Sequenciais");
+        System.out.println("Pratos preparados: 5");
+        System.out.println("Sopas de Cebola: 3 (ímpares)");
+        System.out.println("Lasanhas: 2 (pares)");
+        System.out.println("Entregas: Sequenciais");
     }
 }
